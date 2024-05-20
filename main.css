@@ -1,0 +1,21 @@
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.content {
+    margin: 10px;
+    border: 3px solid green;
+    text-align:center;
+    text-size-adjust: auto;
+}
+
+.square {
+    width:50%;
+    height:auto;
+    background: rgb(59, 140, 206);
+    margin: 10% auto;
+    border: 10px double;
+}
