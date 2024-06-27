@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TicTacToe</title>
+		<link rel="stylesheet" href="styles/gameStyle.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html" style="color: black">Home</a></li>
+				<li><a href="game.html" style="color: black">TicTacToe</a></li>
+			</ul>
+		</nav>
+		<div id="grid"></div>
+		<div id="controls">
+			<button id="startButton">Start Game</button>
+			<div id="speedControl">
+				<label for="speed">Speed:</label>
+				<input type="number" id="speed" value="1" />
+			</div>
+			<div id="itemsControl">
+				<label for="items">Team size:</label>
+				<input type="number" id="items" value="5" />
+			</div>
+		</div>
+
+		<script src="js/tictactoe.js"></script>
+	</body>
+</html>
