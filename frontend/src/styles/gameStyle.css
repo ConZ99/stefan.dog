@@ -1,0 +1,27 @@
+#controls {
+    display: grid;
+    margin: 10px;
+}
+
+#controls>* {
+    margin: 5px 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10,
+            50px);
+    grid-template-rows: repeat(10,
+            50px);
+    gap: 5px;
+    position: relative;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #ccc;
+}
+
+/* .picture {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+} */

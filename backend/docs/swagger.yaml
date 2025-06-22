@@ -1,0 +1,62 @@
+basePath: /api
+host: localhost:8080
+info:
+  contact: {}
+  description: A proxy service that sanitizes BVG transport data
+  termsOfService: http://swagger.io/terms/
+  title: BVG Proxy API
+  version: "1.0"
+paths:
+  /Arrivals/{stationID}:
+    get:
+      description: Get upcoming arrivals for a station ID
+      parameters:
+      - description: Station ID
+        in: path
+        name: stationID
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Get arrivals
+      tags:
+      - arrivals
+  /arrivals/new/{stationID}:
+    get:
+      description: Get upcoming arrivals for a station ID
+      parameters:
+      - description: Station ID
+        in: path
+        name: stationID
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Get arrivals but with resty
+      tags:
+      - arrivals
+swagger: "2.0"
