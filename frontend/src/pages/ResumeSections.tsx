@@ -58,7 +58,7 @@ const ResumeSections: React.FC = () => {
     if (!resumeData) return null;
 
     return (
-        <div style={{ height: '100%', overflowY: 'auto' }}>
+        <div>
             <section id="work-experience">
                 <h2>Work Experience</h2>
                 {resumeData.workExperience.map((job, index) => (

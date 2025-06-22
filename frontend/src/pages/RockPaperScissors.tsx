@@ -146,7 +146,7 @@ const RockPaperScissors: React.FC = () => {
     };
 
     return (
-        <div style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
+        <div style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
             <div ref={gridRef} id="grid" />
             <div id="controls">
                 <button ref={startRef} id="startButton">Start Game</button>
