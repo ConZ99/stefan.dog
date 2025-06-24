@@ -31,7 +31,7 @@ interface TripsResponse {
     trips: Record<string, Trip[]>;
 }
 
-const LocationSearch: React.FC = () => {
+const BVGButBetter: React.FC = () => {
     const [query, setQuery] = useState('');
     const [suggestions, setSuggestions] = useState<Location[]>([]);
     const [showDropdown, setShowDropdown] = useState(false);
@@ -78,7 +78,7 @@ const LocationSearch: React.FC = () => {
     const fetchTrips = async (locationId: string) => {
         try {
             const res = await axios.get<TripsResponse>(
-                `http://localhost:8080/api/trips/${encodeURIComponent(locationId)}`
+                `/api/trips/${encodeURIComponent(locationId)}`
             );
             const allTrips = Object.values(res.data.trips).flat();
             console.log('allTrips:', Object.values(allTrips));
@@ -125,7 +125,7 @@ const LocationSearch: React.FC = () => {
 
         try {
             const res = await axios.get<LocationResponse>(
-                `http://localhost:8080/api/locations/${encodeURIComponent(query)}`
+                `/api/locations/${encodeURIComponent(query)}`
             );
             setSuggestions(res.data.locations);
             console.log('Fetched locations:', res.data.locations);
@@ -234,4 +234,4 @@ const LocationSearch: React.FC = () => {
     );
 };
 
-export default LocationSearch;
+export default BVGButBetter;

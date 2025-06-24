@@ -14,8 +14,8 @@ const Navbar: React.FC = () => {
             </button>
           </li>
           <li className="nav-item">
-            <button className="nav-button" onClick={() => navigate("/game")}>
-              TicTacToe
+            <button className="nav-button" onClick={() => navigate("/RockPaperScissors")}>
+              RockPaperScissors
             </button>
           </li>
           <li className="nav-item">
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
               className="nav-button"
               onClick={() => navigate("/BVGButBetter")}
             >
-              Projects
+              BVGButBetter
             </button>
           </li>
           <li className="nav-item">
