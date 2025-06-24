@@ -59,6 +59,15 @@ const ResumeSections: React.FC = () => {
 
     return (
         <div>
+            <section id="technical-skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    {resumeData.technicalSkills.map((skill, index) => (
+                        <li key={index}>{skill}</li>
+                    ))}
+                </ul>
+            </section>
+
             <section id="work-experience">
                 <h2>Work Experience</h2>
                 {resumeData.workExperience.map((job, index) => (
@@ -89,6 +98,23 @@ const ResumeSections: React.FC = () => {
                 ))}
             </section>
 
+            <section id="personal-projects">
+                <h2>Personal Projects</h2>
+                {resumeData.personalProjects.map((project, index) => (
+                    <div className="project" key={index}>
+                        <div style={{ display: "flex", flexDirection: 'row' }}>
+                            <h3>{project.title}</h3>
+                            <a style={{ alignContent: "center", marginLeft: "5px" }}
+                                href={project.repo} download>
+                                (repo)
+                            </a>
+                        </div>
+                        <p>{project.description}</p>
+                    </div>
+                ))
+                }
+            </section>
+
             <section id="additional-courses">
                 <h2>Additional Recent Courses</h2>
                 <ul>
@@ -100,32 +126,13 @@ const ResumeSections: React.FC = () => {
                 </ul>
             </section>
 
-            <section id="technical-skills">
-                <h2>Technical Skills</h2>
-                <ul>
-                    {resumeData.technicalSkills.map((skill, index) => (
-                        <li key={index}>{skill}</li>
-                    ))}
-                </ul>
-            </section>
-
             <section id="past-jobs">
                 <h2>Past Jobs</h2>
                 {resumeData.pastJobs.map((job, index) => (
                     <p key={index}>{job.description}</p>
                 ))}
             </section>
-
-            <section id="personal-projects">
-                <h2>Personal Projects</h2>
-                {resumeData.personalProjects.map((project, index) => (
-                    <div className="project" key={index}>
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
-                    </div>
-                ))}
-            </section>
-        </div>
+        </div >
     );
 };
 

@@ -1,102 +1,110 @@
 {
-    "workExperience": [
-      {
-        "title": "Full Stack Software Engineer",
-        "company": "IAV GmbH",
-        "date": "November 2023 - present",
-        "duties": [
-          "Conceptualized and designed a frontend dashboard within a month and a half, facilitating centralized plugin viewing. Utilized Figma for designing and Angular, TypeScript, HTML, and CSS for implementation, leading to client approval for further development.",
-          "Identified and resolved issues in extensive infotainment systems for prestigious automotive brands including BMW, Porsche, and Audi, fostering a culture of collaboration and knowledge sharing across teams. Utilized Java for effective problem-solving and troubleshooting.",
-          "Led the design and development of a frontend internal tool aimed at integrating multiple LLMs. The work was completed with tight deadlines and rapid feedback cycles. Collaborated closely with teammates and leadership to define project scope, prioritize tasks, and ensure timely delivery.",
-          "Demonstrated adaptability by quickly adopting a new tech stack including React framework, Typescript, HTML, and CSS. Managed the entire requirement validation process, focusing on user experience enhancement and efficient data management."
-        ]
-      },
-      {
-        "title": "Full Stack Software Engineer",
-        "company": "Dell Technologies",
-        "date": "December 2021 - November 2023",
-        "duties": [
-          "Collaborated closely with users as part of an international team, employing Agile and DevOps methodologies to deliver optimal value in production environments.",
-          "Worked on two distinct projects, showcasing versatility in .NET6, C#, SQL, Automated Testing, Salesforce, Lightning Web Components, HTML5, CSS, and JavaScript.",
-          "Coordinated team communications to incorporate additional technologies, ensuring optimal project outcomes.",
-          "Conducted code reviews, led production deployments, and swiftly resolved challenges to deliver quality products."
-        ]
-      }
-    ],
-    "education": [
-      {
-        "degree": "Master of Engineering in Graphics, Multimedia and Virtual Reality",
-        "institution": "Politehnica University of Bucharest",
-        "date": "2021 - 2023",
-        "courses": [
-          "Virtual/Augmented Reality",
-          "GPU parallel programming",
-          "3D Modelling",
-          "Applied Human Computer Interaction",
-          "Digital Marketing"
-        ]
-      },
-      {
-        "degree": "Bachelor of Engineering in Automatic Control and Computer Science",
-        "institution": "Politehnica University of Bucharest",
-        "date": "2017 - 2021",
-        "courses": [
-          "Graphics Processing Systems",
-          "Computer Graphics",
-          "Data Structures",
-          "Object Oriented Programming",
-          "Parallel and Distributed Programming"
-        ]
-      }
-    ],
-    "additionalCourses": [
-      {
-        "course": "Salesforce Apex Programming Language",
-        "institution": "Udemy Academy",
-        "date": "March 2023"
-      },
-      {
-        "course": "Salesforce Lightning Flows Complete Course",
-        "institution": "Udemy Academy",
-        "date": "March 2023"
-      },
-      {
-        "course": "Zero to Hero in Lightning Web Components",
-        "institution": "Udemy Academy",
-        "date": "February 2023"
-      },
-      {
-        "course": "Full Stack .Net Developer",
-        "institution": "Simplilearn",
-        "date": "November 2022"
-      }
-    ],
-    "technicalSkills": [
-      "Programming languages: .NET6, C#, React, TypeScript (Upper Intermediate), JavaScript, Java, HTML5, CSS (Intermediate), Lightning Web Components, C, C++, Python (Basic)",
-      "Strong knowledge of Object-Oriented Programming, Data Structures, Algorithms, Databases.",
-      "Familiarity with Communication Protocols and Multi-Threading Programming.",
-      "Fluent in Romanian (C2), English (C2) and intermediate proficiency in German (B2)"
-    ],
-    "pastJobs": [
-      {
-        "description": "Participant in the 'Work and Travel' program during the summer of 2018, contributing as a dedicated Bar Back at Dave and Buster's in Panama City, Florida, U.S.A. Developed transferable skills in teamwork, customer service, and adaptability. Excited to apply these experiences in future endeavors."
-      }
-    ],
-    "personalProjects": [
-      {
-        "title": "It's Fun To-Do RPG",
-        "description": "Developed a gamified task manager integrating RPG mechanics, created as the culmination of the master's program. Designed to facilitate task management within a captivating game-like environment, empowering users to effectively complete tasks and achieve their goals.",
-        "repo": "repo"
-      },
-      {
-        "title": "Bachelor's Game",
-        "description": "Game developed as bachelor project in the final year of college. Developed a first-person shooter game with RPG elements as a bachelor project, utilizing Unity and C#.",
-        "repo": "repo"
-      },
-      {
-        "title": "Cluj-Napoca Travel Companion",
-        "description": "Created an application for tourists visiting Cluj-Napoca, offering information on tourist attractions and local reviews. Developed using Java, JavaFX, and ArcGIS API.",
-        "repo": "repo"
-      }
-    ]
-  }
+  "workExperience": [
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "IAV GmbH",
+      "date": "November 2023 - present",
+      "duties": [
+        "Spearheaded a development project alongside approx. 300 developers for the creation of the new infotainment system of a major automotive brand, leading the creation of multiple key features and maintaining direct communication with clients and adjacent teams to ensure task clarity and alignment.",
+        "Performed refinement of feature and bug tickets and led discussions with clients and leadership to align development timelines and balance workload.",
+        "Maintained and enhanced the infotainment systems of several major automotive brands which led to increased code quality and the introduction of new key features to the platforms.",
+        "Led the frontend development of an internal tool integrating LLMs into the software requirements process, meeting tight deadlines and collaborating with cross-functional teams and leadership.",
+        "Independently developed multiple dashboards in 6-8 week cycles using Angular, React, TypeScript and JavaScript and onboarded new developers to transition these into full-scale projects."
+      ]
+    },
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "Dell Technologies",
+      "date": "December 2021 - November 2023",
+      "duties": [
+        "Led efforts to transition from the previous monolithic architecture of the platform to a microservice based architecture as part of a team made of 11 developers and QA engineers.",
+        "Maintained and enhanced an internal backend middleware platform that facilitated communication between multiple services and sanitises information for further use.",
+        "Demonstrated versatility by adapting to multiple tech stacks such as .NET, C#, SQL, HTML, CSS, JavaScript and Salesforce Lightning over the course of 2 projects.",
+        "Oversaw production deployments, carried out code reviews, and resolved any emergent difficulties assuring timely completion of requirements.",
+        "Maintained over 90% code test coverage in the projects through automated and integrated testing. Advocated other developers to ensure their code is thoroughly tested to lessen the workload of the QA team."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Engineering in Graphics, Multimedia and Virtual Reality",
+      "institution": "Politehnica University of Bucharest",
+      "date": "2021 - 2023",
+      "courses": [
+        "Virtual/Augmented Reality",
+        "GPU parallel programming",
+        "3D Modelling",
+        "Applied Human Computer Interaction",
+        "Digital Marketing"
+      ]
+    },
+    {
+      "degree": "Bachelor of Engineering in Automatic Control and Computer Science",
+      "institution": "Politehnica University of Bucharest",
+      "date": "2017 - 2021",
+      "courses": [
+        "Graphics Processing Systems",
+        "Computer Graphics",
+        "Data Structures",
+        "Object Oriented Programming",
+        "Parallel and Distributed Programming"
+      ]
+    }
+  ],
+  "additionalCourses": [
+    {
+      "course": "Salesforce Apex Programming Language",
+      "institution": "Udemy Academy",
+      "date": "March 2023"
+    },
+    {
+      "course": "Salesforce Lightning Flows Complete Course",
+      "institution": "Udemy Academy",
+      "date": "March 2023"
+    },
+    {
+      "course": "Zero to Hero in Lightning Web Components",
+      "institution": "Udemy Academy",
+      "date": "February 2023"
+    },
+    {
+      "course": "Full Stack .Net Developer",
+      "institution": "Simplilearn",
+      "date": "November 2022"
+    }
+  ],
+  "technicalSkills": [
+    "Languages: C#, Java, Kotlin, TypeScript (Upper Intermediate), JavaScript, HTML5, CSS (Intermediate), C, C++, Python, Go (Basic)",
+    "Frameworks: .NET, Android, Android Auto, Angular, React",
+    "Development: OOP, Algorithms, Agile, LLMs, Unit Testing, Databases",
+    "Familiarity with Communication Protocols and Multi-Threading Programming",
+    "Fluent in Romanian (C2), English (C2) and intermediate proficiency in German (B1~B2)"
+  ],
+  "pastJobs": [
+    {
+      "description": "Participant in the 'Work and Travel' program during the summer of 2018, contributing as a dedicated Bar Back at Dave and Buster's in Panama City, Florida, U.S.A. Developed transferable skills in teamwork, customer service, and adaptability. Excited to apply these experiences in future endeavors."
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "stefan.dog",
+      "description": "A personal project for the current website. It also contains a Rock Paper Scissors deathmatch game simulator. It also includes a wrapper over the German public transport system, BVG to facilitate checking and tracking of public transport vehicles at certain stations. The information is being served to the website by a lightweight Golang based backend.",
+      "repo": "https://github.com/ConZ99/stefan.dog"
+    },
+    {
+      "title": "It's Fun To-Do RPG",
+      "description": "Developed a gamified task manager integrating RPG mechanics, created as the culmination of the master's program. Designed to facilitate task management within a captivating game-like environment, empowering users to effectively complete tasks and achieve their goals.",
+      "repo": "https://bitbucket.org/ConZ99/disertatie"
+    },
+    {
+      "title": "Bachelor's Game",
+      "description": "Game developed as bachelor project in the final year of college. Developed a first-person shooter game with RPG elements as a bachelor project, utilizing Unity and C#.",
+      "repo": "https://github.com/ConZ99/3D-First-Person-Shooter"
+    },
+    {
+      "title": "Cluj-Napoca Travel Companion",
+      "description": "Created an application for tourists visiting Cluj-Napoca, offering information on tourist attractions and local reviews. Developed using Java, JavaFX, and ArcGIS API.",
+      "repo": "https://github.com/ConZ99/ClujNapoca_Travel_Companion"
+    }
+  ]
+}
